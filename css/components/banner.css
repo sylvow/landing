@@ -1,0 +1,21 @@
+.banner {
+  color: white;
+  padding: 150px 0;
+  align-items: center;
+  background-image: url("../../images/background.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  /* height: 300px; */
+  margin-bottom: 40px;
+}
+
+.banner .container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.banner .container h1, .banner .container p {
+  margin: 0 !important;
+}
